@@ -81,7 +81,8 @@ padding: 100px 90px 100px 90px;
 }
 /*parte 3 de pagina*/
 #seccion3{
-    
+    padding: 30vh;
+    background: linear-gradient(-15deg ,#00FFAD 55%, white 45%);
 }
 #seccion3-1{
     display: flex;
@@ -118,6 +119,7 @@ padding: 100px 90px 100px 90px;
     display: flex;
     list-style: none;
     justify-content: center;
+    
     
 }
 #carta1-4{
@@ -196,13 +198,81 @@ font{
 #seccion6{
     background-image: url(../assets/img/banner-bk.jpg);
     background-size: cover;
-    padding: 20vh;
+    padding: 17vh;
+    padding-left: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-#seccion5-1{
-
+#seccion6-1{
+    width: 700px;
+    text-align: left;
+    margin: 10px 20px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-#seccion5-2{
+#texto6-1{
+    font-size: 22px;
+    margin: 20px 0px 20px 0px;
+}
+#texto6-2{
+    font-size: 50px;
+    margin: 20px 20px 20px 0px;
+    justify-content: left;
+}
+#seccion6-2{
+    /* background-color: #00FFAD; */
+    width: 500px;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    
+}
+input{
+    width:275px ;
+    border-color:#00FFAD;
+    border-radius: 10px;
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+    background-color: #ffffff00;
+}
+#input3{
+    width:275px ;
+    border-color:#00FFAD;
+    border-radius: 10px;
+    height: 50px;
+    margin: 20px 0px 20px 40px;
+    background-color: #ffffff00;
+}
+#texto-box-2{
+    margin: 10px 0px 0px 10px;
+    color: #00FFAD;
+}
+#input2{
+    margin: 10px 0px 0px 10px;
+    border-color:#00FFAD;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    height: 100px;
+    width: 600px;
+}
+#cajas{
+    display: flex;
+    margin: 10px 0px 0px 10px ;
+    color: #00FFAD;
+}
+  
 
+/* footer */
+footer{
+    padding: 60px 300px 20px 300px;
+    background-color: #192440;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+#icon-1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
 }
